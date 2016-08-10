@@ -2,7 +2,7 @@ C O D E   B O O K
 
 Variables and Summaries Calculated
 
-*** Data File: Combined.csv ***
+*** Data File: Merged.csv ***
 
 Merged Data Set: combined data sets './train/X_train.txt' and './test/X_test.txt' 
 	  	 Column Names were added to the combined data set from project file: './features.txt'
