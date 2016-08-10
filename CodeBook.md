@@ -2,7 +2,7 @@ C O D E   B O O K
 
 Variables and Summaries Calculated
 
-*** Data File: Merged.csv ***
+*** Data File: Merged.csv (see Merged.zip) ***
 
 Merged Data Set: combined data sets './train/X_train.txt' and './test/X_test.txt' 
 	  	 Column Names were added to the combined data set from project file: './features.txt'
@@ -21,6 +21,8 @@ Merged Data Set: combined data sets './train/X_train.txt' and './test/X_test.txt
 
 		Original data variables are described in the files 'Original_Data_README.txt' and 
 		'Original_Data_features_info.txt'
+
+*** Summary File: Summary.csv ***
 
 Summary Data Set: Summary of Merged Data Set, includes variables SubjectID, Activity, and all variables
 		  relating to either mean or standard deviation (std) values.  Data set is grouped by Subject ID
