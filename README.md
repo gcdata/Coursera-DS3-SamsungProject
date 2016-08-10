@@ -89,17 +89,17 @@ The following operations are performed:
 END OF SCRIPT
 
 
-## Example output from Merged.csv
-#     SubjectID	Activity	tBodyAcc	tBodyAcc	tBodyAcc
-#                      	        -mean()-X       -mean()-Y       -mean()-Z
-# 1	      1	STANDING	0.28858451	-0.020294171	-0.13290514
-# 2	      1	STANDING	0.27841883	-0.016410568	-0.12352019
-# 3	      1	STANDING	0.27965306	-0.019467156	-0.11346169
-#
-## Example output from Summary.csv
-#     SubjectID Activity      tBodyAcc		tBodyAcc	tBodyAcc
-#                             .mean...X 	.mean...Y       .mean...Z   
-# 1           1	  LAYING	0.2215982	-0.040513953	-0.11320355
-# 2	      1	  SITTING       0.2612376	-0.001308288	-0.10454418
-# 3	      1	  STANDING      0.2789176	-0.01613759	-0.11060182
-# 
+Example output from Merged.csv
+     SubjectID	Activity	tBodyAcc	tBodyAcc	tBodyAcc
+                      	        -mean()-X       -mean()-Y       -mean()-Z
+ 1	     1	STANDING	0.28858451	-0.020294171	-0.13290514
+ 2	     1	STANDING	0.27841883	-0.016410568	-0.12352019
+ 3	     1	STANDING	0.27965306	-0.019467156	-0.11346169
+
+Example output from Summary.csv
+     SubjectID Activity      tBodyAcc		tBodyAcc	tBodyAcc
+                             .mean...X 	.mean...Y       .mean...Z   
+ 1           1	  LAYING	0.2215982	-0.040513953	-0.11320355
+ 2	     1	  SITTING       0.2612376	-0.001308288	-0.10454418
+ 3	     1	  STANDING      0.2789176	-0.01613759	-0.11060182
+ 
