@@ -3,9 +3,7 @@ Coursera Data Science specialization 3 - Final Project
 
 R E A D M E
 
-The script 'run_analysis.R' performs the following actions on the UCI HAR Dataset.  The dataset is divided into 
-
-Traing and Test data sets. The script first merges and then summarizes the data.
+The script 'run_analysis.R' performs the following actions on the UCI HAR Dataset.  The dataset is divided into Training and Test data sets. The script first merges and then summarizes the data.
 
 
 LIBRARIES
@@ -30,7 +28,7 @@ The following operations are performed:
 	- Read the data into two variables 'SamsungDF1' and 'SamsungDF2', as fixed width using a prepared list
 	  of widths 'Width_txt', a vector of 561 column widths of 16 characters each.
 
-	- rbind these two data sets into one new data set 'SamsungDFAll'.
+	- Combine these two data sets into one new data set 'SamsungDFAll' using rbind.
 
 
   - Convert the raw data into a meaningful data set through the following actions:
@@ -60,7 +58,7 @@ The following operations are performed:
 		  './train/subject_train.txt' and './test/subject_test.txt', applying the column name
 		  'SubjectID'.
 
-		- Combine these subject sets into a new data set 'SubjectsAll' usinf rbind.
+		- Combine these subject sets into a new data set 'SubjectsAll' using rbind.
 
 		- Add the Subjects to dataset 'SamsungDFAll' using cbind.
 
@@ -89,6 +87,7 @@ END OF SCRIPT
 
 
 Example output from Merged.csv
+
      SubjectID	Activity	tBodyAcc	tBodyAcc	tBodyAcc
                       	        -mean()-X       -mean()-Y       -mean()-Z
  1	     1	STANDING	0.28858451	-0.020294171	-0.13290514
@@ -96,6 +95,7 @@ Example output from Merged.csv
  3	     1	STANDING	0.27965306	-0.019467156	-0.11346169
 
 Example output from Summary.csv
+
      SubjectID Activity      tBodyAcc		tBodyAcc	tBodyAcc
                              .mean...X 	.mean...Y       .mean...Z   
  1           1	  LAYING	0.2215982	-0.040513953	-0.11320355
