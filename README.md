@@ -35,8 +35,7 @@ The following operations are performed:
 
   - Convert the raw data into a meaningful data set through the following actions:
         
-        - Apply meaningful column names by reading the list of 561 feature names from file './features.txt' and
-	  add the names as a new column in dataset 'SamsungDFAll'.
+        - Apply meaningful column names by reading the list of 561 feature names from file './features.txt' and add the names as a new column in dataset 'SamsungDFAll'.
 
 	- Add meaningful activity labels:
 
