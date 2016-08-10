@@ -102,3 +102,4 @@ Example output from Summary.csv
  2	     1	  SITTING       0.2612376	-0.001308288	-0.10454418
  3	     1	  STANDING      0.2789176	-0.01613759	-0.11060182
  
+ 
