@@ -63,7 +63,7 @@ The following operations are performed:
 		- Add the Subjects to dataset 'SamsungDFAll' using cbind.
 
 
-  - Output the combined data set as csv file 'Merged.csv'        
+  - Output the combined data set as csv file 'Merged.csv' (see Merged.zip)       
 
   
 SUMMARIZE DATA
